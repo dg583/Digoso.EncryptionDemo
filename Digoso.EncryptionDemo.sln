@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5E25ACE1-3A3E-4BF2-92D8-A6BB28F890E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digoso.EncryptionDemo.Console", "Digoso.EncryptionDemo.Console\Digoso.EncryptionDemo.Console.csproj", "{BADE7854-91EB-4195-ADF0-9162933F4ECA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{858123F8-D785-45F5-BD25-C42FB2F6165C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digoso.Encryption.Tests", "tests\Digoso.Encryption.Tests\Digoso.Encryption.Tests.csproj", "{394B4C12-EF34-4AF4-AE5A-B71099C58DFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BADE7854-91EB-4195-ADF0-9162933F4ECA} = {5E25ACE1-3A3E-4BF2-92D8-A6BB28F890E5}
+		{394B4C12-EF34-4AF4-AE5A-B71099C58DFF} = {858123F8-D785-45F5-BD25-C42FB2F6165C}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BADE7854-91EB-4195-ADF0-9162933F4ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BADE7854-91EB-4195-ADF0-9162933F4ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BADE7854-91EB-4195-ADF0-9162933F4ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BADE7854-91EB-4195-ADF0-9162933F4ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394B4C12-EF34-4AF4-AE5A-B71099C58DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394B4C12-EF34-4AF4-AE5A-B71099C58DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394B4C12-EF34-4AF4-AE5A-B71099C58DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394B4C12-EF34-4AF4-AE5A-B71099C58DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
